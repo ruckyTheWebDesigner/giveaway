@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url(../icons/Cream\ Flowers\ 50th\ Anniversary\ Invitation.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h6 {
+  font-size: 0.85em;
+  font-weight: medium;
+}
+
+h1 {
+  font-weight: 600;
+}
+
+.timer h5 {
+  /* margin-right: 10px; */
+  font-size: 0.85em;
+  margin-top: -10px;
+}
+
+#copyright {
+  font-size: 0.85em;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.illustration img {
+  height: 100%;
+  width: 100%;
+}
+
+.claim {
+  margin: 35px auto;
+  padding: 30px;
+}
+
+.claim button {
+  background-color: blue;
+  padding: 8px 20px;
+  border-radius: 10px;
+  border-color: blue;
+}
+
+.claim button a {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 500;
+  font-size: 0.85em;
+}
+
+@media only screen and (max-width: 500px) {
+  .claim {
+    text-align: center;
+  }
+  .timer {
+    justify-content: center;
+  }
+
+  h1 {
+    font-size: 1.6em;
+  }
+
+  #demo {
+    word-spacing: 40px !important;
+  }
+
+  .timer h5 {
+    font-size: 0.85em;
+    margin-top: -10px;
+    /* margin-left: 0px; */
+    word-spacing: 8px;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .claim {
+    margin-top: 10vh;
+  }
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  html,
+  body {
+    background-position: center;
+  }
+
+  .claim button {
+    padding: 0 5px;
+  }
+
+  .claim button a img {
+    margin-bottom: 10px;
+    width: 10%;
+    height: 10%;
+  }
+
+  .claim h1,
+  h6,
+  h3,
+  img,
+  button {
+    margin-top: 10px;
+  }
+
+  .timer h5 {
+    font-size: 0.85em;
+    margin-top: -10px;
+    /* margin-left: 0px; */
+    word-spacing: 13px;
+  }
+}
+
+@media only screen and (min-width: 968px) {
+  .claim {
+    margin-top: 13vh;
+  }
+
+  html,
+  body {
+    background-position: center;
+  }
+
+  .claim button a img {
+    padding-bottom: 15px;
+    width: 10%;
+    height: 10%;
+  }
+
+  .claim button {
+    padding: 0 10px;
+    margin-top: 5px;
+  }
+
+  .claim h1,
+  h6,
+  h3,
+  img,
+  button {
+    margin-top: 20px;
+  }
+
+  .timer h5 {
+    font-size: 0.85em;
+    margin-top: -10px;
+    /* margin-left: 0px; */
+    word-spacing: 13px;
+  }
+}
